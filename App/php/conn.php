@@ -1,8 +1,8 @@
 <?php
-$db_name = "rentabik_db";
-$mysql_username = "rentabik_db";
-$mysql_password = "trudnehaslo";
-$server_name = "s23.zenbox.pl";
+$db_name = "";
+$mysql_username = "";
+$mysql_password = "";
+$server_name = "";
 $conn = mysqli_connect($server_name, $mysql_username, $mysql_password, $db_name);
 $conn->set_charset("utf8");
 ?>
